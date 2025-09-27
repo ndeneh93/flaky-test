@@ -52,6 +52,5 @@ public class TestIgniteStore extends DataStoreTestBase {
         Collections.sort(keys);
 
         assertEquals(Arrays.asList(2L, 3L, 4L), keys);
-        // Ignite iteration order is nondeterministic; sorting ensures stable test
     }
 }
